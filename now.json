@@ -21,8 +21,8 @@
             "dest": "services"
         },
         {
-            "src": "/diensten/(?<slug>[^/]+)",
-            "dest": "services/[slug].js?slug=$slug"
+            "src": "/diensten/([^/]+)",
+            "dest": "/services/details?slug=$1"
         }
     ]
 }

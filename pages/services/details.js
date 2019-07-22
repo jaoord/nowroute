@@ -1,6 +1,6 @@
 const Index = () => (
     <div>
-        <p>Service details ([slug].js)</p>
+        <p>Service details (details.js)</p>
 
 
     </div>
