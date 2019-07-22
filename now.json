@@ -1,0 +1,18 @@
+{
+    "version": 2,
+    "name": "pocnowroute",
+    "builds": [
+        {
+            "src": "next.config.js",
+            "use": "@now/next"
+        }
+    ],
+    "build": {
+        "env": {
+            "LANGUAGE": "nl-NL"
+        }
+    },
+    "env": {
+        "LANGUAGE": "nl-NL"
+    }
+}
