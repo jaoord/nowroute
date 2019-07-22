@@ -14,5 +14,15 @@
     },
     "env": {
         "LANGUAGE": "nl-NL"
-    }
+    },
+    "routes": [
+        {
+            "src": "/diensten",
+            "dest": "services"
+        },
+        {
+            "src": "/diensten/(?<slug>[^/]+)",
+            "dest": "services/[slug].js?slug=$slug"
+        }
+    ]
 }
