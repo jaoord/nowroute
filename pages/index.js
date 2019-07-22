@@ -5,11 +5,11 @@ const Index = () => (
         <p>Hello Next.js</p>
 
         <Link href="/services" passHref as="/diensten">
-            <a>Services (href=services, as=/diensten)</a>
+            <a>Services (href=services, as=/diensten) / (works on click, but fails on reload/refresh in live)</a>
         </Link>
         <br />
         <Link href="/diensten" passHref as="/diensten">
-            <a>Services (href=diensten, as=/diensten)</a>
+            <a>Services (href=diensten, as=/diensten) / (404 in live)</a>
         </Link>
         <br />
 
