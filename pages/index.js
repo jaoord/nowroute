@@ -20,7 +20,7 @@ const Index = () => (
         <hr />
 
         <Link href="/services/[slug]" passHref as="/diensten/test">
-            <a>Service details (with /[slug]</a>
+            <a>Service details (with /[slug])</a>
         </Link>
         <br />
         <Link href="/services/test" passHref as="/diensten/test">

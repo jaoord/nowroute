@@ -22,7 +22,7 @@
         },
         {
             "src": "/diensten/([^/]+)",
-            "dest": "/services/details?slug=$1"
+            "dest": "services/details?slug=$1"
         }
     ]
 }
